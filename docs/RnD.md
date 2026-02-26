@@ -20,7 +20,9 @@ RnD (Research & Development) specialist focuses on:
 **Impact**: Wastes CI/CD resources when PR already exists
 **Proposed Solution**: Add early-exit job before architect to check for open PRs
 
-## Implemented Fix (Requires Manual Apply)
+## Implemented Fix
+**Status**: Workflow change implemented locally (issue #36), awaiting merge. Docs update merged in PR #35.
+
 Add `check-pr-exists` job before architect stage:
 ```yaml
 check-pr-exists:
@@ -49,6 +51,7 @@ Then update subsequent jobs:
 
 Remove redundant check in specialists (lines 275-283).
 
+<<<<<<< HEAD
 **Note**: This change requires `workflows: write` permission to push. Current token lacks this permission due to GitHub security restrictions. Manual apply required.
 
 ## Action Items
@@ -57,3 +60,13 @@ Remove redundant check in specialists (lines 275-283).
 
 ## History
 - 2026-02-26: Initial RnD scan - found workflow inefficiency
+=======
+## Action Items
+- [x] Document findings in docs/RnD.md
+- [x] Implement workflow optimization (local)
+- [ ] Merge workflow changes (blocked by token permissions - see issue #36)
+
+## History
+- 2026-02-26: Initial RnD scan - found workflow inefficiency
+- 2026-02-26: Workflow optimization implemented locally (issue #36)
+>>>>>>> origin/main
