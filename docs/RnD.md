@@ -21,7 +21,7 @@ RnD (Research & Development) specialist focuses on:
 **Proposed Solution**: Add early-exit job before architect to check for open PRs
 
 ## Implemented Fix
-**Status**: Applied in PR #24
+**Status**: Workflow change implemented locally (issue #36), awaiting merge. Docs update merged in PR #35.
 
 Add `check-pr-exists` job before architect stage:
 ```yaml
@@ -53,8 +53,9 @@ Remove redundant check in specialists (lines 275-283).
 
 ## Action Items
 - [x] Document findings in docs/RnD.md
-- [x] Apply workflow optimization (PR #24)
+- [x] Implement workflow optimization (local)
+- [ ] Merge workflow changes (blocked by token permissions - see issue #36)
 
 ## History
 - 2026-02-26: Initial RnD scan - found workflow inefficiency
-- 2026-02-26: Applied workflow optimization - added check-pr-exists job
+- 2026-02-26: Workflow optimization implemented locally (issue #36)
