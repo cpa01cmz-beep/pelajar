@@ -51,6 +51,16 @@ Then update subsequent jobs:
 
 Remove redundant check in specialists (lines 275-283).
 
+<<<<<<< HEAD
+**Note**: This change requires `workflows: write` permission to push. Current token lacks this permission due to GitHub security restrictions. Manual apply required.
+
+## Action Items
+- [x] Document findings in docs/RnD.md
+- [ ] Apply workflow optimization manually (blocked by GitHub security)
+
+## History
+- 2026-02-26: Initial RnD scan - found workflow inefficiency
+=======
 ## Action Items
 - [x] Document findings in docs/RnD.md
 - [x] Implement workflow optimization (local)
@@ -59,3 +69,4 @@ Remove redundant check in specialists (lines 275-283).
 ## History
 - 2026-02-26: Initial RnD scan - found workflow inefficiency
 - 2026-02-26: Workflow optimization implemented locally (issue #36)
+>>>>>>> origin/main
