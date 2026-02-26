@@ -1,0 +1,23 @@
+{
+  "name": "pelajar",
+  "version": "0.1.0",
+  "description": "Santri/Pelajar - Autonomous AI agent system for fullstack serverless application development",
+  "private": true,
+  "scripts": {
+    "dev": "echo 'Run npm install && npx opencode run --help'",
+    "test": "echo 'No tests configured yet'",
+    "lint": "echo 'No linter configured yet'",
+    "typecheck": "echo 'No type checker configured yet'"
+  },
+  "keywords": [
+    "ai-agent",
+    "autonomous",
+    "fullstack",
+    "serverless"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
