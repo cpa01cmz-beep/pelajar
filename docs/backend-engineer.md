@@ -43,3 +43,14 @@ Based on the workflow and issues:
 - Wait for Architect to create backend-specific issues
 - Coordinate with Platform Engineer for infrastructure needs
 - Coordinate with Security Engineer for auth patterns
+
+## Current Dependencies
+
+- **F1: Authentication System** → Blocked by INF2 (Supabase Integration)
+- **F2: Database Schema & RLS Policies** → Blocked by INF2 (Supabase Integration)
+
+## Repository Health
+
+- No application code exists yet (empty repository)
+- Project needs: package.json, Next.js setup, Supabase configuration
+- This is an Architect/Platform responsibility, not Backend Engineer
